@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.DesignPatternGenerator'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+application{
+    mainClassName = 'com.DesignPatternGenerator.GeneratorDemo'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.squareup:javapoet:1.12.1'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.+'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.+'
+    compile group: 'com.typesafe', name: 'config', version: '1.0.2'
+}
