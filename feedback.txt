@@ -1,0 +1,8 @@
+Hello caglar,
+
+Your hw1 is graded and your total grade is 7.25%
+
+-0.75: Implementation could have been more decoupled.
+
+Regards,
+Mohammed Siddiq
